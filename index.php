@@ -1,5 +1,5 @@
 <?php
-
+//(C)Tsubasa Kato 7/16/2024 - Made with ChatGPT (GPT-4o)
 function convertHTML5toIE3($htmlContent, $baseUrl, $basePath) {
     // Define the replacements for HTML5 elements and attributes
     $replacements = [
