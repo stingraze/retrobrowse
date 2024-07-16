@@ -52,17 +52,29 @@ function convertHTML5toIE3($htmlContent, $baseUrl, $basePath) {
         if (!preg_match('/^(http|https):\/\//i', $url)) {
             $url = rtrim($basePath, '/') . '/' . ltrim($url, '/');
         }
-        $newUrl = $baseUrl . '?url=' . urlencode($url);
-        return str_replace($matches[1], $newUrl, $matches[0]);
+        $newUrl = $baseUrl . '?url=' . $url;
+        return str_replace($matches[1], htmlspecialchars($newUrl), $matches[0]);
     }, $htmlContent);
 
     // Return the converted HTML content
     return $htmlContent;
 }
 
+// Function to check if a string is URL encoded
+function isUrlEncoded($string) {
+    $string = str_replace('%20', '+', $string);
+    return urldecode($string) !== $string;
+}
+
 // Check if the URL parameter is set
 if (isset($_GET['url'])) {
     $url = $_GET['url'];
+
+    // Check if the URL is encoded and decode if necessary
+    if (isUrlEncoded($url)) {
+        $url = urldecode($url);
+    }
+
     $baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 
     // Fetch the HTML content from the given URL
@@ -70,7 +82,8 @@ if (isset($_GET['url'])) {
 
     if ($htmlContent !== false) {
         // Get the base path of the URL to handle relative links
-        $basePath = preg_replace('/\/[^\/]*$/', '/', $url);
+        $parsedUrl = parse_url($url);
+        $basePath = $parsedUrl['scheme'] . '://' . $parsedUrl['host'] . dirname($parsedUrl['path']) . '/';
 
         // Convert the HTML content
         $convertedContent = convertHTML5toIE3($htmlContent, $baseUrl, $basePath);
