@@ -8,4 +8,4 @@ This PHP script allows modern sites (like nvidia.com, nytimes.com ) etc. to load
 This is useful to use with old PDAs and devices with small RAM size.
 The latest release is under canary, index10.php
 
-Tested to work on PHP 8.0 on Ubuntu 20.04
+Tested to work on PHP 8.0 & PHP 8.3.9 on Ubuntu 20.04
