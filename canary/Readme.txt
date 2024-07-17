@@ -1,4 +1,4 @@
-This is a experimental version folder. 
+This is an experimental version folder. 
 
 index.php on this page requires curl to load images. 
 
