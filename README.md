@@ -6,6 +6,10 @@
 This PHP script allows modern sites (like nvidia.com, nytimes.com ) etc. to load in a minimum format. (Almost all text, some images) 
 
 This is useful to use with old PDAs and devices with small RAM size.
-The latest release is under canary, index10.php
+The latest release is index.php
+
+C:Amie at HPC:Factor has been kind enough to contribute some code to make it work on a Windows environment.
+
+I have not personally tested it, but it is under windows directory.
 
 Tested to work on PHP 8.0 & PHP 8.3.9 on Ubuntu 20.04
