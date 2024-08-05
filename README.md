@@ -8,6 +8,7 @@ This PHP script allows modern sites (like nvidia.com, nytimes.com ) etc. to load
 This is useful to use with old PDAs and devices with small RAM size.
 The latest release is index.php
 
+Update:8/5/2024 13:10PM JST:
 C:Amie at HPC:Factor has been kind enough to contribute some code to make it work on a Windows environment.
 
 I have not personally tested it, but it is under windows directory.
