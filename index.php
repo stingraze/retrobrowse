@@ -11,7 +11,9 @@
     ini_set('display_startup_errors', 1); 
     error_reporting(E_ALL); 
  
-    const IMG_ROOT_DIR		= '/var/www/html/retrobrowse'; 
+    const IMG_ROOT_DIR		= '/var/www/html/retrobrowse';
+    #Change above to below if in Windows Environment (Haven't tested yet): 
+    #const IMG_ROOT_DIR		= 'C:\inetpub\wwwroot'; 
     const CURL_DEBUG		= false; 
     const REQUIRE_BASIC_AUTH	= true; 
     const BASIC_AUTH_USER	= 'myuser'; 
