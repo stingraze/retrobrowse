@@ -13,6 +13,8 @@ C:Amie at HPC:Factor has been kind enough to contribute some code to make it wor
 I have not personally tested it, but it is under windows directory. (8/6/2024: deleted as it is now index.php on root directory of this repository)
 
 Update: 8/6/2024 11:43PM JST:
-I have made the C:Amie's edited version and mine the same (index.php) You will need .htaccess for user authentication in this Ver. 0.11.
+I have made the C:Amie's edited version and mine mostly the same (index.php).
+
+You will need .htaccess for user authentication in this Ver. 0.11.1 (My updated version using C:Amie's 0.11)
 
 Tested to work on PHP 8.0 & PHP 8.3.9 on Ubuntu 20.04
