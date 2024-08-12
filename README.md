@@ -37,7 +37,7 @@ If you are on Ubuntu environment, leave it as is, if on Windows environment, com
 
 and uncomment:
 
-```const IMG_ROOT_DIR		= 'C:\inetpub\wwwroot';```
+```#const IMG_ROOT_DIR		= 'C:\inetpub\wwwroot';```
 
 Supported PHP Versions:
 Tested to work on PHP 8.0 & PHP 8.3.9 on Ubuntu 20.04
