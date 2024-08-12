@@ -32,9 +32,11 @@ const IMG_ROOT_DIR		= '/var/www/html/retrobrowse';
 ```
 
 If you are on Ubuntu environment, leave it as is, if on Windows environment, comment out 
+
 ```const IMG_ROOT_DIR		= '/var/www/html/retrobrowse'; " ```
 
 and uncomment:
+
 ```const IMG_ROOT_DIR		= 'C:\inetpub\wwwroot';```
 
 Supported PHP Versions:
