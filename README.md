@@ -1,5 +1,5 @@
 # retrobrowse
-(C)Tsubasa Kato - Inspire Search Corp. Last updated on 2024/7/18 8:54AM JST
+(C)Tsubasa Kato - Inspire Search Corp. Last updated on 2024/8/18 18:53PM JST
 
 ![Sigmarion 3 running retrobrowse (canary version, index10.php)](https://github.com/stingraze/retrobrowse/blob/main/sigmarion3-nytimes-world0.jpg)
 
