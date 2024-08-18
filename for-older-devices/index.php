@@ -1,7 +1,7 @@
 <?php  
 /*  
  * retrobrowse version 0.11.3a - for Ubuntu 20.04 & Windows Environment 
- *This version is intended for devices that don't have browsers with BASIC AUTH IMPLEMENTED.
+ * This version is intended for devices that don't have browsers with BASIC AUTH IMPLEMENTED.
  * (C)Tsubasa Kato - 2024/7/17 22:21PM JST - Created with help from ChatGPT (GPT-4o) & C:Amie 
  * Last updated on 2024/8/18 18:37PM  
  * Note: Not yet tested by Tsubasa Kato himself on Windowss environment 
