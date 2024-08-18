@@ -5,7 +5,7 @@
  * Last updated on 2024/8/12 9:51AM  
  * Note: Not yet tested by Tsubasa Kato himself on Windowss environment 
  * Enable error reporting for debugging - Off in this. 
- * On Ubuntu envrionment, please make sure you use .htaccess file too. 
+ * On Ubuntu environment, please make sure you use .htaccess file too. 
  */  
   
     ini_set('display_errors', 1);  
