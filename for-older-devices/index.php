@@ -28,7 +28,7 @@
 
 if(REQUIRE_NORMAL_AUTH == true) {
     define('USERNAME', 'user');
-define('PASSWORD', '8-18-2024passall');
+define('PASSWORD', 'password-here-please');
 
 // Start a session to manage login state
 
