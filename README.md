@@ -19,7 +19,7 @@ Update: 8/12/2024 17:21 JST:
 C:Amie has been kind enough to make "How to install retrobrowse on Windows 10 / 11 under IIS"
 
 Update: 8/25/2024 16:54 JST:
-Latest version of retrobrowse has been tested to work on lynx (vlynx.scramworks.net) under DOS using HP 200LX.
+Latest version of retrobrowse has been tested to work on lynx (using lynx.scramworks.net via telnet) under DOS using HP 200LX.
 
 Visit here: https://www.hpcfactor.com/support/cesd/200278/how_to_install_retrobrowse_on_windows_10_11_under_iis/
 
