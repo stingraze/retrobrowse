@@ -21,6 +21,9 @@ C:Amie has been kind enough to make "How to install retrobrowse on Windows 10 / 
 Update: 8/25/2024 16:54 JST:
 Latest version of retrobrowse has been tested to work on lynx (using lynx.scramworks.net via telnet) under DOS using HP 200LX.
 
+Update: 8/27/2024 7:34 JST:
+Alpha version / Untested version of index.php coded by C:Amie is in the alpha folder. It is still untested and proof of concept stage. I thank him for coding it.
+
 Visit here: https://www.hpcfactor.com/support/cesd/200278/how_to_install_retrobrowse_on_windows_10_11_under_iis/
 
 Important:
