@@ -17,6 +17,7 @@ I have made the C:Amie's edited version and mine mostly the same (index.php).
 
 Update: 8/12/2024 17:21 JST:
 C:Amie has been kind enough to make "How to install retrobrowse on Windows 10 / 11 under IIS"
+
 Visit here: https://www.hpcfactor.com/support/cesd/200278/how_to_install_retrobrowse_on_windows_10_11_under_iis/
 
 Update: 8/25/2024 16:54 JST:
